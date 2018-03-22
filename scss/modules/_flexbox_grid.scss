@@ -1,0 +1,37 @@
+// _flexbox_grid.scss
+
+.flex_row, .row {
+
+	margin-left: -.5rem;
+	margin-right: -.5rem;
+
+}
+
+.flex_row {
+
+	display: flex;
+	flex-direction: column;
+
+	@include breakpoint(sm) {
+
+		flex-direction: row;
+		
+	}
+
+}
+
+	.space_between {
+
+		justify-content: space-between;
+
+	}
+
+		.grid_12_4_4 {
+
+		}
+
+		.grid_box {
+
+			padding: 1.5rem;
+
+		}

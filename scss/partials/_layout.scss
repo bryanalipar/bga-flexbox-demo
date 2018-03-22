@@ -1,0 +1,84 @@
+// _layout.scss
+
+.top_bar {
+
+		background: #ccc;
+
+}
+
+	.company_logo {}
+
+		.company_logo_img {
+
+			height: 7rem;
+
+		}
+
+	.navigation_bar {
+		
+		display: none;
+
+		@include breakpoint(sm) {
+
+			display: inherit;
+
+		}
+
+	}
+
+		.navigation_list {
+
+			list-style: none;
+			margin: 0;
+
+			a {
+				
+				display: inline-block;
+				padding: 1.5rem 2rem;
+
+				&:hover {
+
+					background: #ccc;
+
+				}
+
+			}
+
+			li {
+
+				margin: 0;
+
+			}
+
+		}
+
+		.services_heading {
+
+			margin: 4rem 0;
+
+		}
+
+		.services {
+
+			.services_ic {
+
+				font-size: 10rem;
+				margin: 2rem 0;
+
+			}
+
+		}
+
+.footer {
+
+	background: #ccc;
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+
+}
+
+	.footer_list {
+
+		margin: 0;
+
+	}
